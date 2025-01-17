@@ -16,7 +16,7 @@ app.use(express.static("public"));
 main().catch((err) => console.log(err));
 async function main() {
   await mongoose.connect(
-    "mongodb+srv://admin-alex:Aa123456@cluster0.zwwad6g.mongodb.net/todolistDB"
+    "mongodb+srv://$USERNAME:$PASS@$mongodb.net/todolistDB"
   );
   // await mongoose.connect("mongodb://127.0.0.1:27017/todolistDB"); // Connect to local server.
 
