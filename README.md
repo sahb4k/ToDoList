@@ -1,5 +1,4 @@
-# ToDoList
-# To do List App.
+# TodoListApp.
 # Can create New lists, adding and removing Items.
-# It's DB is stored using mongoDB Atlas and the App stored using Render App hosting Web Services.
+# DB is stored using mongoDB Atlas and the App stored using Render App hosting Web Services.
 # Nothing Fancy.
